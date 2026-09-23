@@ -1,0 +1,4 @@
+Model,Best parameters,CV macro F1 (mean),CV macro F1 (std),Fold scores,Search time (s)
+Logistic Regression,"{'C': 0.01, 'class_weight': None}",0.33321032329059985,4.569679270759133e-06,"[np.float64(0.333), np.float64(0.333), np.float64(0.333)]",32.9
+Random Forest,"{'class_weight': None, 'max_depth': 8, 'min_samples_leaf': 20}",0.33321032329059985,4.569679270759133e-06,"[np.float64(0.333), np.float64(0.333), np.float64(0.333)]",127.6
+SVM (linear),"{'C': 0.01, 'class_weight': 'balanced'}",0.33408848306539457,0.0018239944234232754,"[np.float64(0.337), np.float64(0.333), np.float64(0.333)]",15.8
