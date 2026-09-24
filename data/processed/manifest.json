@@ -1,0 +1,41 @@
+{
+  "created": "2026-09-23T11:10:39",
+  "rows": {
+    "train": 4673789,
+    "val": 2358844,
+    "test": 2154163
+  },
+  "cutoffs": {
+    "val": "2015-01-01 00:00:00",
+    "test": "2017-01-01 00:00:00"
+  },
+  "feature_cols": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "adj_close",
+    "close_lag_1",
+    "ma_5",
+    "ma_20",
+    "volatility_20",
+    "hl_range_pct",
+    "vol_21d",
+    "vol_63d",
+    "vol_ratio",
+    "daily_return",
+    "price_change",
+    "log_ret",
+    "ret_5d",
+    "ret_21d",
+    "log_vol",
+    "rsi_14",
+    "bb_pos",
+    "ma_cross"
+  ],
+  "cat_cols": [
+    "exchange",
+    "sector"
+  ],
+  "target": "target_next_return"
+}

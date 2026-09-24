@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 historical_stock_prices.csv
 *.csv
+data/processed/*.csv.gz
+Project.1_Data_Collection_and_Initial_Analysis_of_Stock_Market.ipynb
